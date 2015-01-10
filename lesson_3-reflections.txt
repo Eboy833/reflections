@@ -2,3 +2,40 @@
 
 When working collaboratively with other people, working on the same project on multiple computers,
 or when you may need feedback on a project.
+
+2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+So you have control - there may have been changes made to a file by a third
+party that you don't want to include in the file you are working on 
+locally. 
+
+2) Describe the differences between forks, clones, and branches. When would
+you use one instead of another
+
+A branch points to a linear history of commit data.
+
+A fork is a clone of a repository made through GitHub. It clones the 
+repository of a project you are working on, into your GitHub account.
+
+A clone is a copy of a remote repository from a GitHub repository, or anyt
+remote server.
+
+3) What is the benefit of having a copy of the last known state of the
+remote stoted locally?
+
+So that if you are working on a problem offline, you won't lose track of
+what you are working on.
+
+4) How would you collaborate without using git or github? What would be 
+easier, and what would be harder?
+
+You could use google docs or another service to share files. It would be
+hard to commit/make logical changes and log them on the fly, collaborate 
+over small changes and communicate about small sections of code.
+
+5) When wold you want to make changes in a seperate branch rather than
+directly in the master? What benefits does each approach have?
+
+Making changes in a brach allows you to make changes without effecting the 
+master branch so you can test out an idea, and/or collaborate on a problem
+get feedback before merging those chnages with the orginal master branch.
